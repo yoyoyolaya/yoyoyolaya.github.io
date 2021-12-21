@@ -1,0 +1,65 @@
+body, html {
+  /* height: 100%; */
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #505050; 
+}
+
+.bg {
+  /* background-color: rgb(231, 243, 247) ; */
+}
+
+.logo {
+  color: white;
+  width: 20%;
+  height: auto;
+  padding: 5%;
+}
+
+.slogan {
+  width: 100%;
+  color: gray; 
+  font-size: 3vw;
+  font-style: italic;
+  position: absolute; 
+  right: 5%;
+  top: 3%;
+  text-align: right;
+}
+
+.author {
+  padding: 0 5%;
+  font-size: 2vw;
+  font-weight: 100;
+}
+
+.date {
+  padding: 0 5%;
+  font-size: 1.5vw;
+}
+
+.title {
+  padding: 10px 5%;
+  font-size: 3.5vw;
+}
+
+.content {
+  padding: 0px 5%;
+  font-size: 3vw;
+}
+
+@media screen and (min-width: 400px) {
+  .content {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .title {
+    padding: 20px 5%;
+  }
+  .content {
+    font-size: 1.2em;
+  }
+}
