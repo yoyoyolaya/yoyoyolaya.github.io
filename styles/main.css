@@ -27,9 +27,9 @@ body, html {
 
 .slogan {
   padding: 5%;
-  width: 70%;
+  width: 80%;
   color: white; 
-  font-size: 5vw;
+  font-size: 3vw;
   font-style: italic;
   position: absolute; bottom: 5%;
 }
